@@ -1,23 +1,55 @@
 /* Styles for main body and content */
-.millerPost{
+body{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://suncatcherstudio.com/uploads/patterns/us-states/outlines/thin/state/png-small/west-virginia-state-outline.png)
+}
+.flexContainer{
+    display: flex;
+    flex-flow: column;
 
-};
-.millerPost__content{
 
-};
-/* Styles for headers and lists */
-.millerHeader{
-
-};
-.header--xlarge{
 
 }
-.header--large{
+#mainHeader{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    margin: auto;
+    text-align: center;
+    width: 25%
+}
+.millerBio{
+
+    color:black;
+    text-align: center;
+    font-size: 25px
+}
+.millerList{
+    list-style: none
+}
+.millerImg{
 
 }
-.header--medium{
+.header__xlarge{
+    font-size:60px
 
 }
-.header--small{
+.header__large{
+    font-size: 40px
 
+}
+.header__small{
+    font-size: 25px;
+
+
+}
+.linkContainer
+
+{text-align: center
+
+}
+a:hover{color: turquoise;
+
+}
+.millerLink{
+    font-size: 43px;
+    color:yellow
 }
